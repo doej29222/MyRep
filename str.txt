@@ -1,0 +1,10 @@
+STR:
+1.Open the app.
+2.Click on the login icon.
+3.Click on the register link.
+4.Fill in all the required fields.
+5.Click submit button.
+ER:
+User receives email with activation link.
+AR:
+User does not receive email with activation link.

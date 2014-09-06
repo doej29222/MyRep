@@ -1,0 +1,33 @@
+10/08/2014 12:32:23 devpinoyLogger Opening browser
+10/08/2014 12:32:50 devpinoyLogger The browser Mozilla was opened
+10/08/2014 12:32:50 devpinoyLogger Navigating to the url
+10/08/2014 12:32:53 devpinoyLogger Browser got the url: mantisURL
+10/08/2014 12:32:53 devpinoyLogger Typing text to the field
+10/08/2014 12:32:54 devpinoyLogger Text: J_GOSLING was typed to: m_loginField
+10/08/2014 12:32:54 devpinoyLogger Typing text to the field
+10/08/2014 12:32:54 devpinoyLogger Text: 0123456789 was typed to: m_passwordField
+10/08/2014 12:32:54 devpinoyLogger Clicking on the object
+10/08/2014 12:32:57 devpinoyLogger Clicked on the object: m_loginButton
+10/08/2014 12:32:57 devpinoyLogger Clicking on the object
+10/08/2014 12:32:57 devpinoyLogger Clicked on the object: assignedToMe
+10/08/2014 12:33:17 devpinoyLogger Cannot click on the element. Unable to locate element: {"method":"xpath","selector":"html/body/table[3]/tbody/tr[18]/td/table/tbody/tr/td[3]/form/select/option[6]"}
+Command duration or timeout: 20.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Tsips-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
+Session ID: d996c81e-48be-4fec-bc2e-6d979eb4450b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+10/08/2014 12:33:18 devpinoyLogger Opening browser
+10/08/2014 12:33:18 devpinoyLogger The browser Mozilla was opened
+10/08/2014 12:33:18 devpinoyLogger Navigating to the url
+10/08/2014 12:33:20 devpinoyLogger Browser got the url: mantisURL
+10/08/2014 12:33:20 devpinoyLogger Typing text to the field
+10/08/2014 12:33:40 devpinoyLogger Cannot type text. Probably the element has not been found. Unable to locate element: {"method":"xpath","selector":"html/body/div[3]/form/table/tbody/tr[2]/td[2]/input"}
+Command duration or timeout: 20.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Tsips-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
+Session ID: d996c81e-48be-4fec-bc2e-6d979eb4450b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]

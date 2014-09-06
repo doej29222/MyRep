@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="75.851659">
+<testcase classname="Fixing an issue in Mantis project" name="Fixing an issue in Mantis project_2" time="75.848578">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[PASS]&gt; but was:&lt;[FAIL]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at com.testlink.testcases.FixingIssue.selectingStatus(FixingIssue.java:16)&#13;&#10;&#9;at ✽.And I select status closed(main/resources/com/testlink/testcases/b-FixingIssue.feature:16)&#13;&#10;"><![CDATA[Given Runmode is "Y"........................................................passed
+Given I go to "mantisURL" on "Mozilla"......................................passed
+And I type "J_GOSLING" in "m_loginField"....................................passed
+And I type "0123456789" in "m_passwordField"................................passed
+And I click "m_loginButton".................................................passed
+And I click "assignedToMe"..................................................passed
+And I select status closed..................................................failed
+And I click "changeStatusToButton"..........................................skipped
+And I click "closeIssueButton"..............................................skipped
+And I type "Fixed" in "addNoteField"........................................skipped
+And I click "ResolveIssueButton"............................................skipped
+And I click "logoutLink"....................................................skipped
+And I close browser.........................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[PASS]> but was:<[FAIL]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.testlink.testcases.FixingIssue.selectingStatus(FixingIssue.java:16)
+	at ✽.And I select status closed(main/resources/com/testlink/testcases/b-FixingIssue.feature:16)
+]]></failure>
+</testcase>
+<testcase classname="Fixing an issue in Mantis project" name="Fixing an issue in Mantis project_1" time="0.003081">
+<skipped><![CDATA[Given Runmode is "N"........................................................pending
+Given I go to "mantisURL" on "Chrome".......................................skipped
+And I type "J_GOSLING" in "m_loginField"....................................skipped
+And I type "0123456789" in "m_passwordField"................................skipped
+And I click "m_loginButton".................................................skipped
+And I click "assignedToMe"..................................................skipped
+And I select status closed..................................................skipped
+And I click "changeStatusToButton"..........................................skipped
+And I click "closeIssueButton"..............................................skipped
+And I type "Fixed" in "addNoteField"........................................skipped
+And I click "ResolveIssueButton"............................................skipped
+And I click "logoutLink"....................................................skipped
+And I close browser.........................................................skipped
+]]></skipped>
+</testcase>
+</testsuite>

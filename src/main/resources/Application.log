@@ -1,0 +1,27 @@
+10/08/2014 12:54:36 devpinoyLogger Opening browser
+10/08/2014 12:55:06 devpinoyLogger The browser Mozilla was opened
+10/08/2014 12:55:06 devpinoyLogger Navigating to the url
+10/08/2014 12:55:07 devpinoyLogger Browser got the url: mantisURL
+10/08/2014 12:55:07 devpinoyLogger Typing text to the field
+10/08/2014 12:55:08 devpinoyLogger Text: J_GOSLING was typed to: m_loginField
+10/08/2014 12:55:08 devpinoyLogger Typing text to the field
+10/08/2014 12:55:08 devpinoyLogger Text: 0123456789 was typed to: m_passwordField
+10/08/2014 12:55:08 devpinoyLogger Clicking on the object
+10/08/2014 12:55:11 devpinoyLogger Clicked on the object: m_loginButton
+10/08/2014 12:55:11 devpinoyLogger Clicking on the object
+10/08/2014 12:55:31 devpinoyLogger Cannot click on the element. Unable to locate element: {"method":"xpath","selector":"//a[@title='assigned']"}
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Tsips-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
+Session ID: 78e6e83d-d91f-4d25-9210-97a84fa0da07
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+10/08/2014 12:55:52 devpinoyLogger Cannot click on the element. Unable to locate element: {"method":"xpath","selector":"html/body/table[3]/tbody/tr[18]/td/table/tbody/tr/td[3]/form/select/option[6]"}
+Command duration or timeout: 20.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Tsips-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
+Session ID: 78e6e83d-d91f-4d25-9210-97a84fa0da07
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]

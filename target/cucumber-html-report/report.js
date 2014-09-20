@@ -234,7 +234,7 @@ formatter.match({
   "location": "CommonUtil.checkRunmode(String)"
 });
 formatter.result({
-  "duration": 412439521,
+  "duration": 1875720162,
   "status": "passed"
 });
 formatter.match({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "CommonUtil.openWebPage(String,String)"
 });
 formatter.result({
-  "duration": 31104932119,
+  "duration": 76308118463,
   "status": "passed"
 });
 formatter.match({
@@ -268,7 +268,7 @@ formatter.match({
   "location": "CommonUtil.type(String,String)"
 });
 formatter.result({
-  "duration": 688300727,
+  "duration": 1191591323,
   "status": "passed"
 });
 formatter.match({
@@ -285,7 +285,7 @@ formatter.match({
   "location": "CommonUtil.type(String,String)"
 });
 formatter.result({
-  "duration": 325716005,
+  "duration": 371653009,
   "status": "passed"
 });
 formatter.match({
@@ -298,7 +298,7 @@ formatter.match({
   "location": "CommonUtil.click(String)"
 });
 formatter.result({
-  "duration": 2858083078,
+  "duration": 4948162486,
   "status": "passed"
 });
 formatter.match({
@@ -311,14 +311,14 @@ formatter.match({
   "location": "CommonUtil.click(String)"
 });
 formatter.result({
-  "duration": 20158529202,
+  "duration": 20167854135,
   "status": "passed"
 });
 formatter.match({
   "location": "FixingIssue.selectingStatus()"
 });
 formatter.result({
-  "duration": 20300576959,
+  "duration": 20160021908,
   "status": "failed",
   "error_message": "junit.framework.ComparisonFailure: expected:\u003c[PASS]\u003e but was:\u003c[FAIL]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.testlink.testcases.FixingIssue.selectingStatus(FixingIssue.java:16)\r\n\tat ✽.And I select status closed(main/resources/com/testlink/testcases/b-FixingIssue.feature:16)\r\n"
 });
@@ -496,7 +496,7 @@ formatter.match({
   "location": "CommonUtil.checkRunmode(String)"
 });
 formatter.result({
-  "duration": 3081051,
+  "duration": 2603260,
   "status": "pending",
   "error_message": "cucumber.api.PendingException: Scipping the test as runmode is \u0027NO\u0027 \r\n\tat com.testlink.testcases.CommonUtil.checkRunmode(CommonUtil.java:21)\r\n\tat ✽.Given Runmode is \"N\"(main/resources/com/testlink/testcases/b-FixingIssue.feature:10)\r\n"
 });

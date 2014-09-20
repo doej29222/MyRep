@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="75.851659">
-<testcase classname="Fixing an issue in Mantis project" name="Fixing an issue in Mantis project_2" time="75.848578">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="125.025724">
+<testcase classname="Fixing an issue in Mantis project" name="Fixing an issue in Mantis project_2" time="125.023121">
 <failure message="junit.framework.ComparisonFailure: expected:&lt;[PASS]&gt; but was:&lt;[FAIL]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at com.testlink.testcases.FixingIssue.selectingStatus(FixingIssue.java:16)&#13;&#10;&#9;at ✽.And I select status closed(main/resources/com/testlink/testcases/b-FixingIssue.feature:16)&#13;&#10;"><![CDATA[Given Runmode is "Y"........................................................passed
 Given I go to "mantisURL" on "Mozilla"......................................passed
 And I type "J_GOSLING" in "m_loginField"....................................passed
@@ -22,7 +22,7 @@ junit.framework.ComparisonFailure: expected:<[PASS]> but was:<[FAIL]>
 	at ✽.And I select status closed(main/resources/com/testlink/testcases/b-FixingIssue.feature:16)
 ]]></failure>
 </testcase>
-<testcase classname="Fixing an issue in Mantis project" name="Fixing an issue in Mantis project_1" time="0.003081">
+<testcase classname="Fixing an issue in Mantis project" name="Fixing an issue in Mantis project_1" time="0.002603">
 <skipped><![CDATA[Given Runmode is "N"........................................................pending
 Given I go to "mantisURL" on "Chrome".......................................skipped
 And I type "J_GOSLING" in "m_loginField"....................................skipped

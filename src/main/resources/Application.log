@@ -1,27 +1,64 @@
-10/08/2014 12:54:36 devpinoyLogger Opening browser
-10/08/2014 12:55:06 devpinoyLogger The browser Mozilla was opened
-10/08/2014 12:55:06 devpinoyLogger Navigating to the url
-10/08/2014 12:55:07 devpinoyLogger Browser got the url: mantisURL
-10/08/2014 12:55:07 devpinoyLogger Typing text to the field
-10/08/2014 12:55:08 devpinoyLogger Text: J_GOSLING was typed to: m_loginField
-10/08/2014 12:55:08 devpinoyLogger Typing text to the field
-10/08/2014 12:55:08 devpinoyLogger Text: 0123456789 was typed to: m_passwordField
-10/08/2014 12:55:08 devpinoyLogger Clicking on the object
-10/08/2014 12:55:11 devpinoyLogger Clicked on the object: m_loginButton
-10/08/2014 12:55:11 devpinoyLogger Clicking on the object
-10/08/2014 12:55:31 devpinoyLogger Cannot click on the element. Unable to locate element: {"method":"xpath","selector":"//a[@title='assigned']"}
-Command duration or timeout: 20.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+13/09/2014 11:43:44 devpinoyLogger Opening browser
+13/09/2014 11:44:58 devpinoyLogger Cannot open browser. Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+	DEBUG	Skipping unavailable install location app-system-share
+1410597853617	addons.xpi	INFO	Mapping {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} to C:\Program Files\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1410597853617	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1410597853618	addons.xpi	INFO	Mapping {e4f94d1e-2f53-401e-8885-681602c0ddd8} to C:\ProgramData\McAfee Security Scan\Extensions\{e4f94d1e-2f53-401e-8885-681602c0ddd8}.xpi
+1410597853623	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Tsips\AppData\Local\Temp\anonymous4023669225993081662webdriver-profile\extensions\fxdriver@googlecode.com
+1410597853624	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Tsips\AppData\Local\Temp\anonymous4023669225993081662webdriver-profile\extensions\webdriver-staging
+1410597853625	addons.xpi	DEBUG	checkForChanges
+1410597854729	addons.xpi	DEBUG	No changes found
+1410597854740	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1410597854742	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1410597854762	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 7.3.16540.9015
+
+#####
+		AVG XPCOM IS HERE
+#####
+1410597854937	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Tsips\AppData\Local\Temp\anonymous4023669225993081662webdriver-profile\extensions.json
+1410597855758	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1410597855758	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1410597855771	addons.xpi-utils	DEBUG	Successfully read XPI database
+
+#####
+		AVG XPCOM STARTED IN REGULAR MODE, TOOLBAR IS DISABLED
+#####
+
+#####
+		NEWTAB ::: IS NOT ACTIVE
+#####
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+console.error: skype_ff_extension: 
+  DEPRECATED: The widget module is deprecated.  Please consider using the sdk/ui module instead.
+Traceback (most recent call last):
+  File "resource://gre/modules/commonjs/sdk/addon/runner.js", line 114, in startup/<
+    run(options);
+  File "resource://gre/modules/commonjs/sdk/addon/runner.js", line 170, in run
+    let program = main(options.loader, options.main);
+  File "resource://gre/modules/commonjs/toolkit/loader.js", line 645, in main
+    return loader.load(loader, module).exports;
+  File "resource://gre/modules/commonjs/sdk/loader/cuddlefish.js", line 129, in CuddlefishLoader/options<.load
+    result = load(loader, module);
+  File "resource://gre/modules/commonjs/toolkit/loader.js", line 299, in load
+    evaluate(sandbox, module.uri);
+  File "resource://gre/modules/commonjs/toolkit/loader.js", line 262, in evaluate
+    : loadSubScript(uri, sandbox, encoding);
+  File "resource://skype_ff_extension-at-jetpack/skype_ff_extension/lib/main.js", line 14, in null
+    var widgets = require("sdk/widget");
+  File "resource://gre/modules/commonjs/toolkit/loader.js", line 619, in require
+    freeze(load(loader, module));
+  File "resource://gre/modules/commonjs/sdk/loader/cuddlefish.js", line 129, in CuddlefishLoader/options<.load
+    result = load(loader, module);
+  File "resource://gre/modules/commonjs/toolkit/loader.js", line 299, in load
+    evaluate(sandbox, module.uri);
+  File "resource://gre/modules/commonjs/toolkit/loader.js", line 262, in evaluate
+    : loadSubScript(uri, sandbox, encoding);
+  File "resource://gre/modules/commonjs/sdk/widget.js", line 60, in null
+    "The widget module is deprecated.  " +
+  File "resource://gre/modules/commonjs/sdk/util/deprecate.js", line 18, in deprecateUsage
+    let stack = get().slice(2);
+JavaScript error: resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/c2c_options_menu_localization.js, line 189: document.getElementById(...) is null
+
 Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
-System info: host: 'Tsips-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
-Session ID: 78e6e83d-d91f-4d25-9210-97a84fa0da07
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
-10/08/2014 12:55:52 devpinoyLogger Cannot click on the element. Unable to locate element: {"method":"xpath","selector":"html/body/table[3]/tbody/tr[18]/td/table/tbody/tr/td[3]/form/select/option[6]"}
-Command duration or timeout: 20.28 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
-System info: host: 'Tsips-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
-Session ID: 78e6e83d-d91f-4d25-9210-97a84fa0da07
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+System info: host: 'Tsips-PC', ip: '192.168.0.107', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
+Driver info: driver.version: FirefoxDriver
